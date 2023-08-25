@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        footer{
+            flex-wrap: wrap;
+            display: flex; 
+            line-height: 1.5;
+            background-color: aqua;
+            text-decoration: none;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        body{
+            flex-direction: column;
+            display: flex;
+            min-height: 100vh;
+        }
+        .container{
+            flex-grow: 1;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <footer>
+        <div>
+            <h2>About</h2>
+            <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Resources</h2>
+            <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">eBooks</a></li>
+            <li><a href="#">Webinars</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Contact</h2>
+            <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Advertise</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to get our latest news.</p>
+            <form>
+                <input type="email" name="email" placeholder="Enter email address">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

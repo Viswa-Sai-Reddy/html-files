@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Form</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <table>
+            <tr>
+                <td><label for="fname">Firstname:</label></td>
+                <td><input type="text" name="name" id="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Lastname:</label></td>
+                <td><input type="text" name="name" id="lname"required></td>
+            </tr>
+            <tr>
+                <td><label for="phn">Phone</label></td>
+                <td><input type="tel" name="phone number" id="phn" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" name="age" id="age" min="18" max="60" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB:</label></td>
+                <td><input type="date" name="dob" id="dob"required></td>
+            </tr>
+            <tr>
+                <td><label for="sexa">Sex</label></td>
+                <td> <input type="radio" name="sex"  id="sexa" checked >Male
+                <input type="radio" name="sex" id="sexa" >female</td>
+            </tr>
+            <tr>
+                <td><label for="color">Color</label></td>
+                <td><input type="color" name="color" id="color" value="#e2e2e2"></td>
+            </tr>
+            <tr>
+            <td><label for="role">Role</label></td>
+            <td><select name="role" id="role">
+                <option value="none">None</option>
+                <option value="Developer">Developer</option>
+                <option value="Tester">Tester</option>
+                <option value="Designer">Designer</option>
+                <option value="Maintain">Maintain</option>
+                <option value="TL">TeamLeader</option>
+                <option value="others">Others</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;"><label for="address" >Address</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"
+                    minlength="10" maxlength="100" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" required >I accept the conditions.</td>
+            </tr>
+            <tr>
+                
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+
+            </tr>
+            
+        </table>
+
+        
+    </form>
+</body>
+</html>
